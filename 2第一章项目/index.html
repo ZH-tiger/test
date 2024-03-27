@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0 user-scale"/>
+		<title>第一章</title>
+		<style>
+			html,body{
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				background-image: url('img/tu3.png') ;
+				background-size:cover;   /图片充满整个屏幕
+				position: relative;   /body元素相对定位属性
+			}
+			
+			
+			h1{
+				line-height: 90px;
+				color: aliceblue;
+				font-size: 50px;
+			}
+			p{
+				line-break: 80px;
+				color: aliceblue;
+				font-size: 22px;
+			}
+			.btn{
+				width: 200px;
+				height: 60px;
+				background-color: #7cacae;
+				color: aliceblue;
+				font-size: 24px;
+				line-height: 60px;
+				margin: 30px auto;
+				border-radius: 10px;
+				transition: 0.1s;
+			}
+			.btn:hover{
+				width: 210px;
+				height: 70px;
+				background-color: burlywood;
+				line-height: 60px;
+				margin: 50px auto;
+			}
+			.container{
+				/* border-top: 1px solid transparent;  //将页面固定,防止出现滚动条 */
+				padding: 0 20px;
+				position: absolute;
+				top: 45%;
+				text-align: center;
+				width: calc(100% - 40px);
+				transform: translateY(-50%);
+			}
+		</style>
+	</head>
+	
+	<!--       
+			<em>是什么意思</em>    <em>表示强调内容  <br>表示换行   <p>表示段落
+	-->
+	
+	<body>
+		<div class="container">       <!-- 标记元素的class属性 -->
+			<h1>欢迎体验!!!</h1>   <!-- h1:标题 -->
+			
+			<p>520是什么意思</p>
+			<p>
+				<em>是5个坚持，坚持中国共产党的领导，坚持人民的主体地位，坚持中国特色社会主义，坚持一国两制，坚持和平发展</em>
+			</p>
+			<p>2是两个要，要绿水青山，要金山银山</p>
+			<p>0是指对毒品零容忍</p>
+			
+			<div class="btn" id="start" >Start</div>
+		</div>	
+	</body>
+</html>
+
+
+
+
+
+
